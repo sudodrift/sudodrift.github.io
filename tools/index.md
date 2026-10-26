@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tools
-description: Free, open source security tools by Deepak Joshi. sudodrift tracks access changes on Linux servers, breach-checks has scripts for real incidents, agent-preflight checks what a coding agent will load before you start it, and releasedrift catches unpinned or swapped GitHub release downloads.
+description: Free, open source security tools by Deepak Joshi. sudodrift tracks access changes on Linux servers, breach-checks has scripts for real incidents, agent-preflight checks what a coding agent will load before you start it, releasedrift catches unpinned or swapped GitHub release downloads, keydrift finds which keys an incident exposed, and keyburn spots a stolen AI key from its usage.
 permalink: /tools/
 ---
 
@@ -41,6 +41,25 @@ Find GitHub release downloads, check SHA-256 pins, and catch swapped release ass
 
 <div class="button-row">
   <a class="button" href="https://github.com/sudodrift/releasedrift">releasedrift on GitHub</a>
+  <a class="button secondary" href="https://github.com/sudodrift/releasedrift/releases/tag/v0.1.0">Release v0.1.0</a>
+</div>
+
+## keydrift
+
+Find the API keys on your machine and see which ones an incident exposed. It reads the places keys end up on a developer machine (AI agent logs, shell histories, env files, tool configs and CI files), lists every key it finds without showing the value, and gives you a rotation list with the most urgent key first and a link to where you revoke it. `keydrift match` checks for signs of known incidents such as the LiteLLM 1.107.0 release and the OVHcloud CLI swap. It only reads files and sends nothing over the network.
+
+<div class="button-row">
+  <a class="button" href="https://github.com/sudodrift/keydrift">keydrift on GitHub</a>
+  <a class="button secondary" href="https://github.com/sudodrift/keydrift/releases/tag/v0.1.0">Release v0.1.0</a>
+</div>
+
+## keyburn
+
+Catch a stolen OpenAI or Anthropic key from its usage and spend. It reads the providers' own Admin APIs, works out how much each key used per day, and alerts you when a key suddenly does far more than its normal day, when a key you marked as dormant gets used, or when today's spend passes your limit. Run it from cron and get alerts on stdout, ntfy, a webhook or email. It never creates, changes or revokes keys.
+
+<div class="button-row">
+  <a class="button" href="https://github.com/sudodrift/keyburn">keyburn on GitHub</a>
+  <a class="button secondary" href="https://github.com/sudodrift/keyburn/releases/tag/v0.1.0">Release v0.1.0</a>
 </div>
 
 Found a bug or a false positive? Open an issue on the repo for that tool.
