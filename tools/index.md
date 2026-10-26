@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tools
-description: Free, open source security tools by Deepak Joshi. sudodrift tracks access changes on Linux servers, breach-checks has scripts for real incidents, agent-preflight checks what a coding agent will load before you start it, releasedrift catches unpinned or swapped GitHub release downloads, keydrift finds which keys an incident exposed, and keyburn spots a stolen AI key from its usage.
+description: Free, open source security tools by sudodrift. sudodrift tracks access changes on Linux servers, breach-checks has scripts for real incidents, agent-preflight checks what a coding agent will load before you start it, releasedrift catches unpinned or swapped GitHub release downloads, keydrift finds which keys an incident exposed, and keyburn spots a stolen AI key from its usage.
 permalink: /tools/
 ---
 

@@ -1,11 +1,11 @@
-title: Deepak Joshi
+title: sudodrift
 tagline: Breach breakdowns with hands-on fixes
-description: Plain-language breakdowns of real security breaches, with the commands to check your own systems. By Deepak Joshi, Linux sysadmin and maker of sudodrift.
+description: Plain-language breakdowns of real security breaches, with the commands to check your own systems. By sudodrift, a Linux sysadmin who builds small open source security tools.
 url: https://sudodrift.github.io
 baseurl: ""
 lang: en_US
 author:
-  name: Deepak Joshi
+  name: sudodrift
   url: https://sudodrift.github.io/about/
 logo: /assets/img/social-card.png
 image: /assets/img/social-card.png
