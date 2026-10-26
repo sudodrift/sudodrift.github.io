@@ -1,0 +1,55 @@
+title: Deepak Joshi
+tagline: Breach breakdowns with hands-on fixes
+description: Plain-language breakdowns of real security breaches, with the commands to check your own systems. By Deepak Joshi, Linux sysadmin and maker of sudodrift.
+url: https://sudodrift.github.io
+baseurl: ""
+lang: en_US
+author:
+  name: Deepak Joshi
+  url: https://sudodrift.github.io/about/
+logo: /assets/img/social-card.png
+image: /assets/img/social-card.png
+timezone: America/Toronto
+
+links:
+  substack: https://weeklybreachnotes.substack.com
+  medium: https://medium.com/@ideejoshi
+  github: https://github.com/sudodrift/sudodrift
+  github_org: https://github.com/sudodrift
+  kofi: https://ko-fi.com/ideejay
+
+permalink: /posts/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+feed:
+  path: feed.xml
+  excerpt_only: false
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - HOW-TO-POST.md
+  - GO-LIVE.md
+  - README.md
+  - preview
+  - scripts
+  - drafts
+  - vendor
+  - .bundle

@@ -1,0 +1,23 @@
+---
+layout: default
+title: Breach breakdowns with hands-on fixes
+description: Plain-language breakdowns of real security breaches, with the commands to check your own systems. By Deepak Joshi, Linux sysadmin and maker of sudodrift.
+---
+<section class="hero">
+  <h1>Real breaches, and what to run on your own boxes</h1>
+  <p class="lede">I'm Deepak Joshi. I've spent more than ten years in IT, mostly as a Linux sysadmin and in security. When something big gets breached, I read the incident reports, work out what actually happened, and write down the checks and fixes you can use today.</p>
+  <div class="button-row">
+    <a class="button" href="{{ site.links.substack }}">Get Weekly Breach Notes</a>
+    <a class="button secondary" href="{{ '/articles/' | relative_url }}">Read the articles</a>
+  </div>
+</section>
+
+<h2>Latest posts</h2>
+{% assign latest = site.posts | slice: 0, 5 %}
+{% include post-list.html posts=latest %}
+<p><a href="{{ '/articles/' | relative_url }}">All articles →</a></p>
+
+{% include subscribe.html %}
+
+<h2>sudodrift</h2>
+<p>I also maintain <a href="{{ '/sudodrift/' | relative_url }}">sudodrift</a>, a small open source Go tool that takes a snapshot of who can log in to a Linux server and who can become root, then tells you in plain English what changed. Free, one static binary, no network access.</p>
