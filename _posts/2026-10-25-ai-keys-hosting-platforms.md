@@ -124,7 +124,6 @@ None of this needed a zero-day. Zeabur's root cause in its own words: "long-live
 
 I'm not going to tell you to stop using a PaaS. They save a lot of time. But I wouldn't put a main provider key on any of them anymore. Give each deployment its own key with a low spend cap. Then a leak costs you one rotation and a small bill, not a weekend.
 
-If this helped, Weekly Breach Notes sends one breach a week with the fix that goes with it: https://weeklybreachnotes.substack.com
 
 ---
 

@@ -206,4 +206,3 @@ Sources
 - GitHub Docs, "Preventing changes to your releases": https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/prevent-release-changes
 - OVHcloud CLI releases: https://github.com/ovh/ovhcloud-cli/releases
 
-If this was useful, I send one breach a week with the fix that goes with it in Weekly Breach Notes. You can subscribe here: https://weeklybreachnotes.substack.com
