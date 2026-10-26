@@ -20,11 +20,11 @@ description: Plain-language breakdowns of real security breaches, with the comma
 {% include subscribe.html %}
 
 <h2>Tools</h2>
-<p>Free, open source tools I maintain. None of them change the systems they check or send your data anywhere.</p>
+<p>Free, open source tools I maintain. None of them change the systems they check.</p>
 <ul class="post-list">
   <li>
     <a class="post-link" href="{{ '/sudodrift/' | relative_url }}">sudodrift</a>
-    <p>A small Go tool that takes a snapshot of who can log in to a Linux server and who can become root, then tells you in plain English what changed. One static binary, no network access.</p>
+    <p>A small Go tool that takes a snapshot of who can log in to a Linux server and who can become root, then tells you in plain English what changed. It can also check your sudoers files for lines that sudo-rs, the new default sudo on Ubuntu, rejects. One static binary, no network access.</p>
   </li>
   <li>
     <a class="post-link" href="https://github.com/sudodrift/breach-checks">breach-checks</a>
@@ -33,6 +33,10 @@ description: Plain-language breakdowns of real security breaches, with the comma
   <li>
     <a class="post-link" href="https://github.com/sudodrift/agent-preflight">agent-preflight</a>
     <p>Run it before you start a coding agent in a folder. It lists the instruction files, MCP servers and hooks the agent would load, and flags the ones worth a look.</p>
+  </li>
+  <li>
+    <a class="post-link" href="https://github.com/sudodrift/releasedrift">releasedrift</a>
+    <p>Finds every GitHub release download in your Dockerfiles, scripts and workflows, checks that each one is pinned to a SHA-256, and tells you when a release file was swapped after you last looked.</p>
   </li>
 </ul>
 <p><a href="{{ '/tools/' | relative_url }}">All tools →</a></p>

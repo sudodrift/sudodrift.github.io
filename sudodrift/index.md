@@ -25,6 +25,18 @@ It covers users and groups, `authorized_keys` fingerprints (never the key itself
 
 It's one static Go binary built with the standard library only. No daemon, no network access, and it never changes the host it scans. Root isn't required, but running as root gives you full coverage.
 
+## New in v0.4.0: sudo-rs readiness check
+
+Ubuntu 25.10 and 26.04 LTS use [sudo-rs](https://github.com/trifectatechfoundation/sudo-rs) as the default `sudo`. It reads the same `/etc/sudoers`, but when it meets a line it does not support, it skips the whole line, so a rule that worked before the upgrade can stop granting access. `sudodrift sudors-check` reads `/etc/sudoers` and every file it includes and lists each line that sudo-rs rejects, ignores or handles differently, with a suggested fix and a link to the source for each one.
+
+```sh
+sudo sudodrift sudors-check                    # check this machine for Ubuntu 26.04
+sudodrift sudors-check --root /mnt/image       # check a mounted image or a copy of /etc
+sudodrift sudors-check --target ubuntu-25.10   # use the Ubuntu 25.10 rules
+```
+
+Each finding is marked breaks (sudo-rs skips the line), differs (it works differently) or info. It exits 1 when something breaks, so you can run it in CI before an upgrade.
+
 ## Install
 
 Prebuilt static binaries for Linux amd64 and arm64 are on the [releases page](https://github.com/sudodrift/sudodrift/releases/latest). Check the hash before you install:
