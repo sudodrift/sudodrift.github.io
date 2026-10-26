@@ -9,7 +9,7 @@ permalink: /sudodrift/
 
 <div class="button-row">
   <a class="button" href="https://github.com/sudodrift/sudodrift">sudodrift on GitHub</a>
-  <a class="button secondary" href="https://github.com/sudodrift/sudodrift/releases/latest">Latest release (v0.3.0)</a>
+  <a class="button secondary" href="https://github.com/sudodrift/sudodrift/releases/latest">Latest release (v0.4.0)</a>
 </div>
 
 ## What it does
@@ -42,7 +42,7 @@ Each finding is marked breaks (sudo-rs skips the line), differs (it works differ
 Prebuilt static binaries for Linux amd64 and arm64 are on the [releases page](https://github.com/sudodrift/sudodrift/releases/latest). Check the hash before you install:
 
 ```sh
-VER=v0.3.0; ARCH=amd64   # or arm64
+VER=v0.4.0; ARCH=amd64   # or arm64
 curl -fsSLO https://github.com/sudodrift/sudodrift/releases/download/$VER/sudodrift_${VER#v}_linux_$ARCH.tar.gz
 curl -fsSLO https://github.com/sudodrift/sudodrift/releases/download/$VER/SHA256SUMS
 sha256sum -c SHA256SUMS --ignore-missing
