@@ -43,4 +43,10 @@ Stop copying authorized_keys to every server. A small wrapper around OpenSSH ssh
 
 <div class="button-row"><a class="button" href="https://sudodrift.gumroad.com/l/lioancl">Get the SSH Certificate Kit</a></div>
 
+## Vault Compromise Response Kit, $15
+
+For when your password vault, PAM tool or remote support server may have been reached. A blast radius inventory, a tiered rotation order, session and MFA security key review checklists for Entra ID, Okta, Google Workspace, AWS and GitHub, a 72 hour timeline and message drafts.
+
+<div class="button-row"><a class="button" href="https://sudodrift.gumroad.com/l/mvxcaq">Get the Vault Response Kit</a></div>
+
 Questions about a kit before you buy? [Open an issue](https://github.com/sudodrift/sudodrift/issues) or reply to any Weekly Breach Notes email.
