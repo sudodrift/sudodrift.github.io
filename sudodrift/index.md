@@ -99,10 +99,10 @@ sudodrift evidence --base base.json --current now.json -o evidence.zip   # revie
 
 It's not a real-time monitor or an IDS. It compares two snapshots you take. Snapshots are plain JSON, so keep your baselines off the host. If you need fleet-wide monitoring today, look at osquery or Wazuh. The README has an honest comparison with similar tools.
 
-## sudodrift Pro Pack <span class="badge">Coming soon</span>
+## sudodrift Pro Pack
 
 <div class="note" markdown="1">
-A paid add-on kit for people who run sudodrift on real servers: a Linux access hardening checklist, tested sudoers.d and sshd_config.d files, a quarterly access review kit for SOC 2 and ISO 27001 style reviews, and bash scripts for collecting snapshots from many hosts and sending a weekly drift alert. The tool itself stays free. Not available yet; subscribe to [Weekly Breach Notes]({{ site.links.substack }}) and I'll say when it's out.
+A paid add-on kit for people who run sudodrift on real servers: a Linux access hardening checklist, tested sudoers.d and sshd_config.d files, a quarterly access review kit for SOC 2 and ISO 27001 style reviews, and bash scripts for collecting snapshots from many hosts and sending a weekly drift alert. The tool itself stays free. [Get the Pro Pack for $24](https://sudodrift.gumroad.com/l/cipiuh), or see [all kits]({{ '/kits/' | relative_url }}).
 </div>
 
 Found a bug or a false positive? [Open an issue](https://github.com/sudodrift/sudodrift/issues).
