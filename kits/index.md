@@ -25,6 +25,12 @@ A 27-item Linux access hardening checklist, tested sudoers.d and sshd_config.d f
 
 <div class="button-row"><a class="button" href="https://sudodrift.gumroad.com/l/cipiuh">Get the Pro Pack</a></div>
 
+## phishpeek Pro, $9
+
+Offline phishing reports from saved .eml files: an HTML report for one email, a worst first scan of a whole folder, and JSON for help desk tools. It never opens links or looks anything up.
+
+<div class="button-row"><a class="button" href="https://sudodrift.gumroad.com/l/jdqyxe">Get phishpeek Pro</a></div>
+
 ## Linux Intrusion Triage Kit, $17
 
 For the moment you think a Linux box has been broken into. A read-only bash collector, 16 persistence checks, baseline drift, a first-hour runbook and rebuild and key rotation checklists. Tested against 17 planted backdoors.
