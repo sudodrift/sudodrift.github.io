@@ -25,6 +25,12 @@ A 27-item Linux access hardening checklist, tested sudoers.d and sshd_config.d f
 
 <div class="button-row"><a class="button" href="https://sudodrift.gumroad.com/l/cipiuh">Get the Pro Pack</a></div>
 
+## sudodrift Pro, $15
+
+Turns two sudodrift snapshots into an audit evidence pack for Linux access reviews: a printable report with a sign off box, CSVs of changes, root capable accounts and SSH keys, SOC 2 and ISO 27001 control references, and checksums.
+
+<div class="button-row"><a class="button" href="https://sudodrift.gumroad.com/l/yffuui">Get sudodrift Pro</a></div>
+
 ## phishpeek Pro, $9
 
 Offline phishing reports from saved .eml files: an HTML report for one email, a worst first scan of a whole folder, and JSON for help desk tools. It never opens links or looks anything up.
