@@ -1,7 +1,7 @@
 ---
 title: "Polymarket got drained through a page-speed script. Does your site load one?"
 date: 2026-10-30
-description: "A monitoring script that Polymarket loaded from its vendor DebugBear was swapped for a wallet drainer for about an hour on October 29. Roughly 700 accounts lost money. Here is what is confirmed, what is still open, and how to check your own site for the same weak spot."
+description: "A monitoring script that Polymarket loaded from its vendor DebugBear was swapped for a wallet drainer for about an hour on October 29. Hundreds of wallets were hit, by one count about 710 deposit addresses, though that is not the same as the number of victims. Here is what is confirmed, what is still open, and how to check your own site for the same weak spot."
 image: /assets/posts/polymarket-debugbear-script/2026-10-30-polymarket-debugbear-script-timeline.png
 ---
 
@@ -38,7 +38,7 @@ Confirmed by the companies themselves:
 
 Reported by researchers and on-chain analysis, not by Polymarket:
 
-- Loss estimates land around $2.5 to $2.7 million across roughly 700 wallets. Polymarket later put thefts at $2.7 million and said it was paying back $3.9 million in total, including traders hurt by the pause, per a [Yahoo Finance report](https://finance.yahoo.com/markets/crypto/articles/polymarket-sends-3-9m-back-181112258.html).
+- Loss estimates land around $2.5 to $2.7 million across hundreds of wallets. GoPlus counted about 710 deposit addresses, but as SecurityWeek notes, that is not the same as the number of victims. Polymarket later put thefts at $2.7 million and said it was paying back $3.9 million in total, including traders hurt by the pause, per a [Yahoo Finance report](https://finance.yahoo.com/markets/crypto/articles/polymarket-sends-3-9m-back-181112258.html).
 - Polymarket has not named DebugBear publicly. The link comes from the build commit, Hudson Rock's analysis and DebugBear's own post.
 
 Still unknown:
