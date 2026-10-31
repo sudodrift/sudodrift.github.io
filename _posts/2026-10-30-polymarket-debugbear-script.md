@@ -3,6 +3,7 @@ title: "Polymarket got drained through a page-speed script. Does your site load 
 date: 2026-10-30
 description: "A monitoring script that Polymarket loaded from its vendor DebugBear was swapped for a wallet drainer for about an hour on October 29. Hundreds of wallets were hit, by one count about 710 deposit addresses, though that is not the same as the number of victims. Here is what is confirmed, what is still open, and how to check your own site for the same weak spot."
 image: /assets/posts/polymarket-debugbear-script/2026-10-30-polymarket-debugbear-script-timeline.png
+tags: [breach-notes, supply-chain, javascript, csp, crypto]
 ---
 
 *By sudodrift*
