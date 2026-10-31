@@ -30,9 +30,11 @@ Quick "am I affected?" scripts for real leaks and supply chain incidents. Each f
 
 Check what your AI coding agent will read and run before you start it. It lists every instruction and config file that Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI or VS Code would load from the current folder, then flags MCP servers you have not approved, hooks that run on their own, files downloaded from the internet and agent files sitting in places like Downloads.
 
+New in v0.2.0: every MCP server it finds is also checked against a small, dated list of MCP servers with published vulnerabilities, starting with the nine VulnCheck CVEs from October 27, 2026 and the AWS API MCP Server bug CVE-2026-115413. A match is flagged even after you approve the server, because approving a server does not patch it. It also flags Gemini CLI hooks, Cursor `mcp.json`, VS Code folder-open tasks and devcontainer lifecycle commands.
+
 <div class="button-row">
   <a class="button" href="https://github.com/sudodrift/agent-preflight">agent-preflight on GitHub</a>
-  <a class="button secondary" href="https://github.com/sudodrift/agent-preflight/releases/tag/v0.1.0">Release v0.1.0</a>
+  <a class="button secondary" href="https://github.com/sudodrift/agent-preflight/releases/tag/v0.2.0">Release v0.2.0</a>
 </div>
 
 ## releasedrift
